@@ -40,6 +40,8 @@ def number_to_full_month_name(number_of_month)
     return "April"
   when 9
     return "September"
+  when 10
+    return "October"
   end
 end
 
