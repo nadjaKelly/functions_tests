@@ -40,3 +40,10 @@ def number_to_full_month_name(number_of_month)
     return "September"
   end
 end
+
+def number_to_short_month_name(number)
+  case number
+  when 1
+    then "January".slice(0..2)
+  end
+end
